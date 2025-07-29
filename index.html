@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FakeStore Shop</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header>
+    <h1>FakeStore Shop</h1>
+  </header>
+  <div class="container">
+    <div class="search-sort">
+      <input type="text" id="searchInput" placeholder="Qidiring..." />
+      <select id="priceSort">
+        <option value="">Saralash (narx)</option>
+        <option value="asc">Arzon - Qimmat</option>
+        <option value="desc">Qimmat - Arzon</option>
+      </select>
+      <select id="categoryFilter"></select>
+    </div>
+
+    <div class="loading" id="loading">Yuklanmoqda...</div>
+    <div class="product-grid" id="productGrid"></div>
+  </div>
+
+
+  <script src="/script.js"></script>
+</body>
+</html>
